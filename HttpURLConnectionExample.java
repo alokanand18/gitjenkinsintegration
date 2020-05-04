@@ -13,7 +13,7 @@ public class HttpURLConnectionExample {
 
 	private static final String POST_URL = "https://api.boomi.com/api/rest/v1/trainingalokanand-4TKUEM/DeployedPackage/";
 
-	private static final String POST_PARAMS = "{\n" + "\"environmentId\" : \"4d444c97-d19c-4bb6-8839-f0dbfc04bf24\",\r\n" + "\"packageId\" : \"eb946044-2e83-49bd-a715-958592cb4731\",\r\n" + "\n}";
+	private static final String POST_PARAMS = "{\n" + "\"environmentId\" : \"4d444c97-d19c-4bb6-8839-f0dbfc04bf24\",\r\n" + "\"packageId\" : \"eb946044-2e83-49bd-a715-958592cb4731\",\r\n" + "\"notes\" : \"Package deployment via Jenkins\"" + "\n}";
 
 	public static void main(String[] args) throws IOException {
 
